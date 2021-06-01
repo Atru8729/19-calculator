@@ -5,19 +5,18 @@
   position: absolute;
   top: 20%;
   padding: 20px;
-  border-radius: 5%;
+  border-radius: 5px;
+  transform: translate(-50%, -50%);
 }
 
 .calculator > .screen {
-  text-align: right;
-  font-size: 60px;
-  background-color: #eff1f5;
+  display: inline-block;
+  width: 100%;
 }
 
 .calculator > .screen > .answer {
-  text-align: right;
-  font-size: 40px;
-  background-color: #eff1f5;
+  display: inline-block;
+  width: 100%;
 }
 
 .calculator > .screen > .equation {
@@ -41,14 +40,15 @@
   border-radius: 50%;
   text-align: center;
 }
+
 .calculator > .keyboard > .button.grey {
-  background-color: gray;
+  background-color: #e0e2e6;
 }
 
 .calculator > .keyboard > .button.dark {
-  background-color: darkolivegreen;
+  background-color: #b2b3bb;
 }
 
 .calculator > .keyboard > .button.red {
-  background-color: red;
+  background-color: #ff5467;
 }

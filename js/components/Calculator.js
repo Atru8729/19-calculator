@@ -22,7 +22,7 @@ class Calculator {
             { title: '+', color: 'dark' },
             { title: '0', color: 'white' },
             { title: '.', color: 'white' },
-            { title: '<=|', color: 'white' },
+            { title: '<', color: 'white' },
             { title: '=', color: 'red' },
         ];
 
